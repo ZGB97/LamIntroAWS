@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-In this lab, I created an AWS Lambda function and set up an Amazon EventBridge event to trigger the function every minute. The Lambda function, using an IAM role, stops a running EC2 instance in my AWS account. First, I accessed the AWS Management Console and launched the lab environment. Then, I created a Lambda function named myStopinator with Python 3.8 as the runtime and assigned it an existing IAM role. Next, I configured an EventBridge rule to trigger the function every minute. I updated the Lambda function's code to stop a specific EC2 instance by replacing placeholders with my region and instance ID. Finally, I deployed the code and verified that the Lambda function successfully stopped the EC2 instance by checking the instance status in the EC2 console.
+In this lab, I created an AWS Lambda function and set up an Amazon EventBridge event to trigger the function every minute. The Lambda function, using an IAM role, stops a running EC2 instance in the AWS account. First, I accessed the AWS Management Console and launched the lab environment. Then, I created a Lambda function named myStopinator with Python 3.8 as the runtime and assigned it an existing IAM role. Next, I configured an EventBridge rule to trigger the function every minute. I updated the Lambda function's code to stop a specific EC2 instance by replacing placeholders with my region and instance ID. Finally, I deployed the code and verified that the Lambda function successfully stopped the EC2 instance by checking the instance status in the EC2 console.
 <br />
 
 <h2>Languages and Utilities Used</h2>
